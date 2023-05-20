@@ -183,12 +183,13 @@ a:hover {
  height: 100%;
  position: absolute;
  top: 0;
- display: none;
+ display: flex;
  justify-content: center;
  align-items: center;
+ text-align: center;
 }
 .popup-content{
-  height: 250px;
+  height: 300px;
   width: 500px;
   background: #ffffff;
   padding: 20px;
@@ -202,16 +203,25 @@ a:hover {
   padding: 8px;
   border: 1px solid gray;
 }
+#mensagem{
+  height: 20%;
+}
 .close{
   position:absolute;
-  top: -15px;
-  bottom: -15px;
-  background-color: #ffffff;
+  bottom: -0.5px;
+  top: -0.5px;
+  background: #ffffff;
   height: 20px;
+  width: 30px;
   border-radius: 50%;
   box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
-  cursor: pointer  ;
+  cursor: pointer;
 }
 .button{
-
+  background: #000000;
+  padding: 10px 15px;
+  color:#ffffff;
+  border-radius: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
 }
