@@ -72,14 +72,14 @@ a:hover {
 }
 
 .conhecimentos {
-    padding: 40px;
+    padding-right: 40px;
     display: flex;
     flex-direction: row;
     color:#000000;
     margin-left: 60px;
     margin-bottom: 20px;
-    border top: 10px;
-    padding: 0;
+    border-top: 10px;
+    padding-bottom: 170px;
     box-sizing: border-box;
     text-decoration: none;
 }
@@ -127,7 +127,8 @@ a:hover {
 }
 
 .trabalhos-anteriores {
-  padding-top: 170px;
+  border-top: 3px #000000 solid;
+  border-bottom: 3px #000000 solid;
   text-align: center;
 }
 #carregando-1 {
