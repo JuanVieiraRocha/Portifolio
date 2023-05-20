@@ -12,8 +12,7 @@
         <nav class="guia-de-navegação">
             <a class="item-menu" href="Portifolio.html">Sobre mim</a>
             <a class="item-menu" href="Conhecimentos.html">Conhecimentos</a>
-            <a class="item-menu" href="Conhecimentos.html">Portifólio</a>
-            <a class="item-menu">Contato</a>
+            <a class="item-menu" id="button" href="#">Contato</a>
         </nav>
     </header>
 
@@ -38,6 +37,7 @@
             <h2 class="contatos">Contatos</h2>
         </div>
         <section class="organização-contatos">
+
         <a href="https://wa.me/qr/6V6XB77QFD6HA1" target="_blank"><img class= "imagem-contato" src= "Imagens/Whatsapp.png"> </a>
 
         <a><img class="imagem-email" src= "Imagens/gmail.png"> </a>
@@ -46,10 +46,29 @@
             <img class="imagem-insta" src= "Imagens/instagram.png"> </a>
         </section>
     </footer>
+    <div class="popup">
+        <div class="popup-content">
+            <img class="close" src="imagens/Close.png" alt="close">
+            <img width="100px" height="100px" justify-content="center" src="imagens/User-image.png" alt="user">
+            <input class="input" type="text" placeholder="username">
+            <input class="input" type="text" placeholder="write your demand">
+            <a href="#" class="button">Enviar</a>
+        </div>
+    </div>
+
+
+    <script>
+    
+    document.getElementById("button").addEventListener("click", function(){
+        document.querySelector(".popup").style.display = "flex";
+    })
+
+    document.querySelector(".close").addEventListener("click", function(){
+        document.querySelector(".popup")style.display = "none" 
+    })
+
+    </script>
+
+
 </body>
 </html>
-
-<script>
-    
-
-</script>
