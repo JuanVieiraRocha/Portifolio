@@ -13,7 +13,7 @@
         <nav class="guia-de-navegação">
             <a class="item-menu" href="Portifolio.html">Sobre mim</a>
             <a class="item-menu" href="Conhecimentos.html">Conhecimentos</a>
-            <a class="item-menu">Contato</a>
+            <a class="item-menu" id="button" href="#">Contato</a>
         </nav>
     </header>
 
@@ -43,5 +43,28 @@
     </section>
 
     </main>
+
+    <div class="popup">
+      <div class="popup-content">
+          <img class="close" src="imagens/Close.png" alt="close">
+          <img width="100px" height="100px" justify-content="center" src="imagens/User-image.png" alt="user">
+          <input class="input" type="text" placeholder="seu nome">
+          <input class="input" id="mensagem" type="text" placeholder="O que você deseja?">
+          <a href="Portifolio.html" class="button">Enviar</a>
+      </div>
+  </div>
+
+
+  <script>
+  
+  document.getElementById("button").addEventListener("click", function(){
+      document.querySelector(".popup").style.display = "flex";
+  })
+
+  document.querySelector(".close").addEventListener("click", function(){
+      document.querySelector(".popup").style.display = "none" 
+  })
+
+  </script>
 </body>
 </html>
