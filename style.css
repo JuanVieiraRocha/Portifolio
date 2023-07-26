@@ -1,8 +1,9 @@
 body {
     background: linear-gradient(0deg, #b7b7bd, #ffffff), #616164;
-border: 1px solid #000000;
-font-size: 100%;
-margin: 0;
+    border: 1px solid #000000;
+    font-size: 100%;
+    margin: 0;
+    overflow: hidden;
 }
 
 a {
@@ -49,7 +50,7 @@ a:hover {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding-bottom: 131px;
+    padding-bottom: 100px;
 }
 
 .conteudo-escrito {
@@ -62,6 +63,7 @@ a:hover {
     font-weight: 500px;
     font-size: 50px;
     color: #000000;
+    font-family: 'Handjet', cursive;
 }
 
 .subtitulo-apresentação {
@@ -69,6 +71,7 @@ a:hover {
     font-weight: 500px;
     color:#000000;
     width: 600px;
+    font-family: 'Handjet', cursive;
 }
 
 .conhecimentos {
@@ -97,7 +100,7 @@ a:hover {
   flex-direction: column;
   height: 400px;
   width: 230px;
-  padding-left: 10px;
+  padding-left: 180px;
 }
 
 #html {
@@ -152,8 +155,9 @@ a:hover {
     flex-direction:column;
     color:#000000;
     justify-content:space-around;
-    border-top: 0.5px sloid #131212;
-  padding-bottom: 40px;
+    border-top: 0.5px solid #131212;
+    padding-bottom: 40px;
+    position: relative;
 }
 
 .contatos {
@@ -163,19 +167,21 @@ a:hover {
 .organização-contatos {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 .imagem-contato {
-    width: 40px;
+    width: 70px;
 }
 
 .imagem-insta {
-  width: 40px;
+  width: 70px;
 }
 .imagem-email {
-   width: 40px;
-   height: 40px;
+   width: 70px;
+   height: 70px;
    padding-left: 10px;
    padding-right: 10px;
 }
