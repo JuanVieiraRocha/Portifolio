@@ -241,3 +241,22 @@ a:hover {
   background: #33495e;
   color: #ffffff;
 }
+@media (max-width:375px) {
+  .apresentação{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+  }
+  .titulo-apresentação{
+    width: 300px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .subtitulo-apresentação{
+    width: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+}
