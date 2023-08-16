@@ -5,16 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Handjet:wght@600;800&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@600;800&family=Pacifico&display=swap" rel="stylesheet">
     <title>Conhecimentos e portifólio</title>
 </head>
 <body>
     <header class="Guia">
 
         <nav class="guia-de-navegação">
-            <a class="item-menu" href="Portifolio.html">SOBRE MIM</a>
+            <a class="item-menu" href="index.html">SOBRE MIM</a>
             <a class="item-menu" href="Conhecimentos.html">CONHECIMENTOS</a>
             <a class="item-menu" id="button" href="#">CONTATO</a>
         </nav>
@@ -45,7 +45,10 @@
         </div>
       </div>
 
-      <div class="Previous">
+      <div class="previous">
+        <img style="border-radius: 10%;" src="Imagem-gif-carregando.gif" alt="Previus-works">
+        <img style="border-radius: 10%;" src="Imagem-gif-carregando.gif" alt="previous-works">
+        <img style="border-radius: 10%;" src="Imagem-gif-carregando.gif" alt="previous-works">
 
       </div>
     </main>
@@ -61,15 +64,9 @@
   </div>
 
 
-  <script>
+  <script src="javascript.js">
   
-  document.getElementById("button").addEventListener("click", function(){
-      document.querySelector(".popup").style.display = "flex";
-  })
-
-  document.querySelector(".close").addEventListener("click", function(){
-      document.querySelector(".popup").style.display = "none" 
-  })
+  
 
   </script>
 </body>
